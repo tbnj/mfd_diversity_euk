@@ -11,7 +11,7 @@ All scritps are needed to make the combined figure panel at the end.
 `scripts/format_FL18s.R` formats an OTU table from the 18S rRNA gene data extracted from the eukaryotic operons. 
 
 
-`scripts/richness_estimates_FL18S.R` estimates total gamma diversity using the near full-length 18S OTUs from the PacBio data as wrll as gamma diversity across the MFDO1 ontology level.
+`scripts/richness_estimates_FL18S.R` estimates the total richness, using the near full-length 18S OTUs from the PacBio data as well as Shannon and Simpson diversity - [not to confused with their corresponding indexes](https://johnsonhsieh.github.io/iNEXT/). Estimates are made for the total data and categoty-specific estimates based on MFDO1. 
 
 
 `scripts/diversity_FL18S.R` calculates alpha diversity using the near full-length 18S OTUs from the PacBio data across the MFDO1 ontology level. It performs the statistical analysis on alpha diveristy and combines the alpha with the gamma diversity calculated for the same data.
